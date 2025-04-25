@@ -8,7 +8,7 @@ public class Exercicio9Scanner {
         int idade = scanner.nextInt();
 
         System.out.print("Está com ingresso? (true/false): ");
-        double temIngresso = scanner.nextDouble();
+        boolean temIngresso = scanner.nextBoolean();
 
         if (idade >= 18 && temIngresso) {
             System.out.println("Entrada permitida.");
